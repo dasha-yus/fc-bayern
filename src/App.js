@@ -1,11 +1,17 @@
-import './App.css';
+/* eslint-disable */
+import './App.scss';
+import React from 'react';
+import Header from './components/Header';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<Router>
+			<div className="App">
+				<Header />
+			</div>
+		</Router>
+	);
+};
 
 export default App;

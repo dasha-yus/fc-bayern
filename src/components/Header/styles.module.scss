@@ -1,0 +1,88 @@
+@import "../../App.scss";
+
+.header {
+    background-color: $main;
+    color: #fff;
+    padding: 1rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+
+    &_img {
+        width: 6rem;
+    }
+
+    &_text {
+        padding: 0 1rem;
+        
+        &_main {
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+    }
+}
+
+.item {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.options,
+.lang, .login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: $secondary;
+    border-radius: 5px;
+    height: 2rem;
+
+    &_img {
+      margin-right: .5rem;  
+    }
+
+    &:hover {
+        background-color: #001261;
+    }
+}
+
+.lang {
+    padding: 0 1rem;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    height: 2rem;
+
+    &_img {
+        margin-left: .5rem;
+    }
+}
+
+.login {
+    padding-left: 1rem;
+    color: #fff;
+    text-decoration: none;
+
+    &_img {
+        margin-right: .5rem;
+    }
+}
+
+.search {
+    padding-right: 1rem;
+}
