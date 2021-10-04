@@ -1,0 +1,12 @@
+.post1 {
+    grid-area: post-1;
+    width: 50vw;
+}
+
+.post2 {
+    grid-area: post-2;
+}
+
+.post3 {
+    grid-area: post-3;
+}

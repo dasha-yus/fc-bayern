@@ -1,0 +1,40 @@
+.post {
+    position: relative;
+    border: .5px solid #fff;
+    box-sizing: border-box;
+}
+
+.desc {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    // background: linear-gradient(to top, rgba(0, 0, 0, .4), rgba(110, 110, 110, 0.4));
+    // background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    padding: 2rem;
+
+    & h2 {
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+    }
+
+    & h1 {
+        font-size: 2rem;
+        letter-spacing: .1rem;
+        margin-top: 0;
+    }
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(55%);
+
+    &:hover {
+        filter: brightness(70%);
+    }
+}
