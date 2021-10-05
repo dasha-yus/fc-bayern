@@ -3,7 +3,10 @@ body {
   padding: 0;
   font-size: 62.5%;
   font-family: 'Francois One', sans-serif;
+  overflow-x: hidden;
 }
 
 $main: #D00000;
+$darken: #800101;
+$darken-hover: #8b0000;
 $secondary: #000f52;

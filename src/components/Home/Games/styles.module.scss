@@ -1,0 +1,93 @@
+@import "./../../../App.scss";
+
+.games {
+    background-color: $main;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.team {
+    padding: 0 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & p {
+        font-size: 1rem;
+    }
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid $darken;
+    border-right: 1px solid $darken;
+    margin: 0 1rem;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: $darken;
+    text-decoration: none;
+    padding: 2px 20px;
+    color: #fff;
+    font-size: .8rem;
+    margin-top: auto;
+    margin-bottom: 14px;
+
+    & p {
+        margin-right: 5px;
+    }
+
+    &:hover {
+        background-color: $darken-hover;
+    }
+}
+
+.info {
+    text-align: end;
+}
+
+.league {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.day {
+    font-size: .9rem;
+    margin: 0;
+}
+
+.location {
+    font-size: .7rem;
+    margin-top: 5px;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.ht {
+    margin: 0;
+    font-size: 1rem;
+}

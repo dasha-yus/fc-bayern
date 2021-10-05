@@ -1,5 +1,8 @@
+@import "./../../../App.scss";
+
 .posts {
-    height: 850px;
+    height: 900px;
+    background-color: $main;
     display: grid;
     grid-template-areas: "post-1 post-1 post-1 post-1 post-2 post-2 post-2 post-2"
                          "post-1 post-1 post-1 post-1 post-2 post-2 post-2 post-2"

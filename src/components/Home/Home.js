@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './Header/index';
+import Games from './Games/Games';
 import Posts from './Posts/Posts';
 
 const Home = () => {
 	return (
 		<div>
-			<Header />
 			<Posts />
+			<Games />
 		</div>
 	);
 };
