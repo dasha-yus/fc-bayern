@@ -15,7 +15,7 @@ const Games = () => {
 				setGame(res.data.data[25]);
 			})
 			.catch((err) => console.error(err));
-	}, game);
+	}, [game]);
 
 	return (
 		<div className={styles.games}>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Ad from './Ad/Ad';
 import Games from './Games/Games';
 import Posts from './Posts/Posts';
 
@@ -7,6 +8,7 @@ const Home = () => {
 		<div>
 			<Posts />
 			<Games />
+			<Ad />
 		</div>
 	);
 };
