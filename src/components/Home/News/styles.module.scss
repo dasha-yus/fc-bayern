@@ -1,0 +1,24 @@
+@import "./../../../App.scss";
+
+.news_block {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7rem;
+    color: $darken;
+    font-size: 2rem;
+
+    & span {
+        width: 100%;
+        height: 70px;
+        margin-left: 1rem;
+        border-bottom: 2px solid $darken;
+    }
+}
+
+.news {
+    padding: 0 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}

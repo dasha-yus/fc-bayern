@@ -1,0 +1,30 @@
+@import "./../../../../App.scss";
+
+.block {
+    width: 380px;
+    height: 200px;
+    text-decoration: none;
+    font-size: 1rem;
+
+    & img {
+        width: 100%;
+    }
+}
+
+.topic {
+    text-transform: uppercase;
+    color: $darken;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+
+.title {
+    color: $secondary;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.text {
+    margin-top: 4px;
+    color: $gray-dark;
+}
